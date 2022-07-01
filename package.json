@@ -4,6 +4,8 @@
   "description": "Welcome to the companion app of Odyssey Lift-off I! You can [find the course lessons and instructions on Odyssey](https://odyssey.apollographql.com/lift-off-part1), Apollo's learning platform.",
   "main": "index.js",
   "scripts": {
+    "i:back": "cd server && npm install",
+    "i:front": "cd client && npm install",
     "start": "npm run start:back && npm run start:front",
     "start:back": "cd server && npm run start",
     "start:front": "cd client && npm run start",
